@@ -12,7 +12,7 @@ spring:
         - id: catalogRoute 
           uri: http://localhost:8084/
           predicates: 
-            - Path=/catalog/**
+            - Path=/catalogs/**
 eureka:
   client:
     service-url:
